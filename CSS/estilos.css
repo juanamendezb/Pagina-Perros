@@ -1,0 +1,165 @@
+header{
+	width: 1700px;
+	height: 250px;
+	padding: 10px;
+	border: 20px #E74C3C solid;
+	margin: 30px 30px;
+	background-image:url("../IMG/Huellas.png");
+	border-radius: 50px;
+	
+}
+header img{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	right: 300px;
+	top: 80px;
+
+}
+
+header h2{
+	font-family: monospace;
+	font-size: 100px;
+	color:black ;
+	top: 0px;
+	left:250px;
+	position: absolute;
+	width: 1200px;
+	height: 70px;
+	
+}
+
+header h1{
+	font-family: monospace;
+	font-size: 74px;
+	color:black ;
+	left: 549px;
+	top: 145px;
+	width: 460px;
+	height: 70px;
+	position: absolute;
+}
+
+nav{
+	position: relative;
+	margin: auto;
+	width: 1800px;
+	height: 48px;
+	
+}
+.botones{
+	width: 370px;
+	height: 48px;
+	margin: 10px 20px;
+	float: left;
+	font-family: 'kaushan script', cursive;
+	font-size: 30px;
+	text-align: center;
+	line-height: 45px;
+	border: 5px solid black;
+
+	background: #c3c3c3;
+}
+.botones:hover{
+	background: #58D68D ;
+}
+
+.botones:active{
+	background: #239B56;
+}
+article{
+	width: 800px;
+	height: 686px;
+	margin: 10px 300px;
+	background: #F9E79F;
+	border: solid black;
+	position: absolute;
+
+
+}
+article h1{
+	width: 780px;
+	height: 60px;
+	padding: 10px;
+	background: #F5B041;
+	font-size: 40px;
+	font-family: 'kaushan script', cursive;
+	text-align: center;
+
+
+}
+article p{
+	font-size: 20px;
+	font-family: 'kaushan script', cursive;
+	padding: 5px;
+	width: 520px;
+
+
+
+}
+article img{
+	left:550px ;
+	top: 100px;
+	position: absolute;
+	width:250px ;
+	height: 250px;
+	color: black;
+}
+#Imagen img{
+	position: relative;
+	left:875px ;
+	top: 450px;
+	width:200px ;
+	height: 200px;
+}
+
+aside#Datos{
+	position: absolute;
+	right: 360px;
+	top: 450px;
+	width: 350px;
+	height: 650px;
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'kaushan script', cursive;
+	border: 10px dotted #239B56;
+	background: #58D68D;
+}
+aside#Datos h1{
+	text-align: center;
+}
+
+aside#Datos input{
+	padding: 10px;
+	margin: 5px  ;
+	width: 270px;
+	float: center;
+	border: 5px solid;
+	tab-size: 100px;
+}
+
+aside#Datos input[type="submit"]{
+	width: 150px;
+	background: #c3c3c3;
+	border:5px solid darkslategray;
+	left: 100px;
+	position: absolute;
+	border-radius: 500px;
+}
+
+#Datos input[type="submit"]:hover{
+	background: #F9E79F ;
+}
+
+footer{
+	position: relative;
+	margin: 20px auto;
+	width: 500px;
+	height: 100px;
+	background: white;
+	text-align: center;
+	border-radius: 20px;
+	border: 5px solid green;
+	top: 500px;
+}
+
